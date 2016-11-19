@@ -1,8 +1,10 @@
 - slug: lern-in-college
   name: Lern in college
+  subtitle: memo
 
 - slug: programming
   name: Programming
+  subtitle: Those problems I solved
 
 - slug: tools
   name: Tools

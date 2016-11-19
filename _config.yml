@@ -6,12 +6,14 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://xuau34.github.io" # the base hostname & protocol for your site
 
+explore: null
+
 author:
   fullname: Mi
   googleplus: https://www.google.com/+Mi
   github: xuau34
   twitter: xuau34
-  # disqus: your_disqus_forum_shortname
+  disqus: xuau34
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
