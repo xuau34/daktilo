@@ -27,6 +27,8 @@ categories: [swift]
 
 * `default` = per thread
 * Used to **async** post notifications
+* It's scheduled on the RunLoop, so for OperationQueue, which is based on the [Grand Central Dispatch](https://stackoverflow.com/a/36364829/11719456), this won't work unless perform the enqueue in mainRunLoop.
+  * Tried on new runLoop, which can't work also.
 * `enqueue`
   * `Notification` - the name, object, userInfo
   * `postingStyle`
